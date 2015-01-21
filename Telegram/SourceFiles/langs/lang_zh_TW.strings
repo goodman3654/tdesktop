@@ -1,0 +1,492 @@
+/*
+This file is part of Telegram Desktop,
+the official desktop version of Telegram messaging app, see https://telegram.org
+
+Telegram Desktop is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+It is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
+Copyright (c) 2014 John Preston, https://desktop.telegram.org
+*/
+"lng_language_name" = "正體中文";
+"lng_switch_to_this" = "切換至英文";
+
+"lng_menu_contacts" = "聯絡人";
+"lng_menu_settings" = "設定";
+"lng_menu_about" = "關於";
+"lng_menu_update" = "更新";
+"lng_menu_restart" = "重啟";
+"lng_menu_back" = "返回";
+
+"lng_open_from_tray" = "開啟 Telegram";
+"lng_minimize_to_tray" = "縮小至系統列";
+"lng_quit_from_tray" = "離開 Telegram";
+"lng_tray_icon_text" = "Telegram 仍在執行中,\n你可以在設定頁面更改設定.\n\n如果這個圖示從系統列消失,\n你可以從隱藏的圖示把它拖曳回來.";
+
+"lng_month1" = "一月";
+"lng_month2" = "二月";
+"lng_month3" = "三月";
+"lng_month4" = "四月";
+"lng_month5" = "五月";
+"lng_month6" = "六月";
+"lng_month7" = "七月";
+"lng_month8" = "八月";
+"lng_month9" = "九月";
+"lng_month10" = "十月";
+"lng_month11" = "十一月";
+"lng_month12" = "十二月";
+
+"lng_weekday1" = "一";
+"lng_weekday2" = "二";
+"lng_weekday3" = "三";
+"lng_weekday4" = "四";
+"lng_weekday5" = "五";
+"lng_weekday6" = "六";
+"lng_weekday7" = "日";
+
+"lng_weekday1_full" = "週一";
+"lng_weekday2_full" = "週二";
+"lng_weekday3_full" = "週三";
+"lng_weekday4_full" = "週四";
+"lng_weekday5_full" = "週五";
+"lng_weekday6_full" = "週六";
+"lng_weekday7_full" = "週日";
+
+"lng_month_day" = "{月} {日}";
+
+"lng_cancel" = "取消";
+"lng_continue" = "繼續";
+"lng_close" = "關閉";
+"lng_connecting" = "連線中..";
+"lng_reconnecting" = "重連 {count:now|in # s|in # s}..";
+"lng_reconnecting_try_now" = "現在嘗試";
+
+"lng_status_service_notifications" = "服務通知";
+"lng_status_offline" = "上次上線是很久以前";
+"lng_status_recently" = "不久前曾上線";
+"lng_status_last_week" = "一週內曾上線";
+"lng_status_last_month" = "一個月內曾上線";
+"lng_status_invisible" = "隱形";
+"lng_status_lastseen_now" = "剛剛才已讀";
+"lng_status_lastseen_minutes" = "已讀 {count:_not_used_|# minute|# minutes} 前";
+"lng_status_lastseen_hours" = "已讀 {count:_not_used_|# hour|# hours} 前";
+"lng_status_lastseen_today" = "已讀 於今天 {time}";
+"lng_status_lastseen_yesterday" = "已讀 於昨天 {time}";
+"lng_status_lastseen_date" = "已讀 {date}";
+"lng_status_lastseen_date_time" = "已讀 {date} 於 {time}";
+"lng_status_online" = "在線";
+"lng_status_connecting" = "連線中..";
+
+"lng_chat_status_unaccessible" = "無法存取群組";
+"lng_chat_status_members" = "{count:no members|# member|# members}";
+"lng_chat_status_members_online" = "{count:_not_used_|# member|# members}, {count_online:_not_used_|# online|# online}";
+
+"lng_server_error" = "內部服務器錯誤.";
+"lng_flood_error" = "嘗試次數過多. 請稍後再試.";
+"lng_deleted" = "未知";
+
+"lng_intro" = "歡迎使用官方版 [a href=\"https://telegram.org/\"]Telegram[/a] desktop app.\n它很 [b]快速[/b] 並且 [b]安全[/b].";
+"lng_start_msgs" = "開始聊天";
+
+"lng_intro_next" = "下一部";
+"lng_intro_finish" = "註冊";
+
+"lng_phone_ph" = "你的手機號碼";
+"lng_phone_title" = "你的手機";
+"lng_phone_desc" = "請確認你的國碼以及\n輸入你的手機號碼.";
+"lng_phone_notreg" = "注意: 如果你還沒有Telegram帳號,\n請用你的 [a href=\"https://telegram.org/\"]iOS / Android[/a] [b]註冊[/b] 或 從{signup_start}這裡 »{signup_end}";
+"lng_country_code" = "國碼";
+"lng_bad_country_code" = "無效的國碼";
+"lng_country_ph" = "搜尋";
+"lng_country_done" = "完成";
+"lng_country_none" = "找不到國家";
+"lng_country_select" = "選擇國家";
+
+"lng_code_ph" = "你的認證碼";
+"lng_code_desc" = "我們已經送出含有認證碼的訊息\n到你的手機. 請在下方輸入.";
+"lng_code_call" = "Telegram 將會撥電話到你的手機於  {minutes}:{seconds}";
+"lng_code_calling" = "請求 Telegram 撥電話到你的手機..";
+"lng_code_called" = "Telegram 已撥電話到你的手機";
+
+"lng_bad_phone" = "無效的手機號碼. 請重試.";
+"lng_bad_phone_noreg" = "手機號碼為註冊.";
+"lng_bad_code" = "你輸入了無效的認證碼. 請重試.";
+"lng_bad_name" = "請輸入姓名.";
+"lng_bad_photo" = "選擇了錯誤的圖片.";
+
+"lng_bad_image_for_photo" = "這個圖片無法被傳送.\n是否同意已檔案的方案傳送？";
+
+"lng_signup_title" = "資訊與照片";
+"lng_signup_desc" = "請輸入姓名與\n上傳照片.";
+
+"lng_signup_firstname" = "名";
+"lng_signup_lastname" = "姓";
+
+"lng_dlg_filter" = "搜尋";
+"lng_dlg_new_group_name" = "群組名稱";
+"lng_dlg_create_group" = "建立";
+"lng_no_contacts" = "您沒有聯絡人";
+"lng_contacts_loading" = "載入中..";
+"lng_contacts_not_found" = "找不到聯絡人";
+
+"lng_settings_save" = "儲存";
+"lng_settings_upload" = "設定個人照片";
+"lng_settings_crop_profile" = "選擇個人照片區塊";
+"lng_settings_uploading_photo" = "上傳照片中..";
+
+"lng_username_title" = "更改用戶名稱";
+"lng_username_about" = "你可以設定用戶名稱於 Telegram.\n如果你設定了, 其他人將可以搜尋到你的用戶名稱\n且與你聯繫而不需要知道你的手機號碼.\n\n\n你可以使用a-z, 0-9 與底線.\n最少5個字元.";
+"lng_username_invalid" = "無效的用戶名稱.";
+"lng_username_occupied" = "用戶名稱已被使用.";
+"lng_username_too_short" = "用戶名稱過短.";
+"lng_username_bad_symbols" = "不良的用戶名稱.";
+"lng_username_available" = "用戶名稱可用.";
+"lng_username_not_found" = "用戶名稱 @{user} 不存在.";
+
+"lng_settings_section_contact_info" = "聯絡人資訊";
+"lng_settings_phone_number" = "手機號碼:";
+"lng_settings_username" = "用戶名稱:";
+"lng_settings_choose_username" = "設定用戶名稱";
+"lng_settings_change_username" = "更改";
+
+"lng_settings_section_notify" = "通知";
+"lng_settings_desktop_notify" = "桌面通知";
+"lng_settings_show_name" = "顯示傳送者名稱";
+"lng_settings_show_preview" = "預覽圖片";
+"lng_settings_sound_notify" = "播放音效";
+
+"lng_notification_preview" = "你有新訊息";
+
+"lng_settings_section_general" = "一般";
+"lng_settings_change_lang" = "更改語言";
+"lng_languages" = "語言";
+"lng_sure_save_language" = "Telegram 將重啟\n以更改語言";
+"lng_settings_auto_update" = "自動更新";
+"lng_settings_current_version" = "版本 {version}";
+"lng_settings_check_now" = "檢查更新";
+"lng_settings_update_checking" = "正在檢查更新..";
+"lng_settings_latest_installed" = "已安裝最新版";
+"lng_settings_downloading" = "正在下載更新 {ready} / {total} Mb..";
+"lng_settings_update_ready" = "新版本已就緒";
+"lng_settings_update_now" = "馬上重啟";
+"lng_settings_update_fail" = "檢查更新失敗 :(";
+"lng_settings_workmode_tray" = "顯示系統列圖示";
+"lng_settings_workmode_window" = "顯示工作列圖示";
+"lng_settings_auto_start" = "開機時啟動 Telegram";
+"lng_settings_start_min" = "啟動時最小化";
+"lng_settings_add_sendto" = "將 Telegram 放到 «傳送到» 選單";
+"lng_settings_scale_label" = "介面顯示比例";
+"lng_settings_scale_auto" = "自動 ({cur})";
+
+"lng_settings_section_chat" = "聊天選項";
+"lng_settings_replace_emojis" = "取代文字表情符號";
+"lng_settings_view_emojis" = "查看列表";
+"lng_settings_emoji_list" = "已支援文字表情列表";
+"lng_settings_send_enter" = "按下Enter傳送";
+"lng_settings_send_ctrlenter" = "按下Ctrl+Enter傳送";
+"lng_settings_send_cmdenter" = "按下Cmd+Enter傳送";
+"lng_settings_cats_and_dogs" = "顯示背景貓狗圖案";
+
+"lng_download_path_dont_ask" = "不要詢問每個下載檔案的路徑";
+"lng_download_path_label" = "下載路徑:";
+"lng_download_path_temp" = "暫存目錄";
+"lng_download_path_default" = "預設目錄";
+"lng_download_path_clear" = "清除全部";
+"lng_download_path_header" = "設定下載路徑";
+"lng_download_path_default_radio" = "Telegram 目錄在系統 «Downloads»";
+"lng_download_path_temp_radio" = "暫存目錄, 登出或移除時清除";
+"lng_download_path_dir_radio" = "自訂目錄, 手動清除";
+"lng_download_path_choose" = "設定下載路徑";
+"lng_sure_clear_downloads" = "是否移除暫存目錄中所有下載的檔案? 登出或移除時將自動清除.";
+"lng_download_path_failed" = "無法開始下載. 有可能是錯誤的下載位置.\n\n請修改設定頁面裡的下載路徑.";
+"lng_download_path_settings" = "移到設定頁面";
+"lng_download_finish_failed" = "下載檔案無法完成.\n\n是否重試?";
+"lng_download_path_clearing" = "清除中..";
+"lng_download_path_cleared" = "已清除!";
+"lng_download_path_clear_failed" = "清除失敗 :(";
+
+"lng_settings_section_cache" = "本地儲存";
+"lng_settings_no_data_cached" = "找不到快取資料!";
+"lng_settings_images_cached" = "{count:_not_used_|# image|# images}, {size}";
+"lng_settings_audios_cached" = "{count:_not_used_|# voice message|# voice messages}, {size}";
+"lng_local_storage_clear" = "清除全部";
+"lng_local_storage_clearing" = "清除中..";
+"lng_local_storage_cleared" = "已清除!";
+"lng_local_storage_clear_failed" = "清除失敗 :(";
+
+"lng_settings_section_advanced" = "進階";
+"lng_connection_type" = "連線方式:";
+"lng_connection_auto_connecting" = "預設 (連線中..)";
+"lng_connection_auto" = "預設 ({type} 使用中)";
+"lng_connection_http_proxy" = "HTTP with proxy";
+"lng_connection_tcp_proxy" = "TCP with proxy";
+"lng_connection_header" = "連線方式";
+"lng_connection_auto_rb" = "自動 (TCP 優先 或 HTTP)";
+"lng_connection_http_proxy_rb" = "HTTP with custom http-proxy";
+"lng_connection_tcp_proxy_rb" = "TCP with custom socks5-proxy";
+"lng_connection_host_ph" = "Hostname";
+"lng_connection_port_ph" = "Port";
+"lng_connection_user_ph" = "Username";
+"lng_connection_password_ph" = "Password";
+"lng_connection_save" = "Save";
+"lng_settings_reset" = "終止其他連線";
+"lng_settings_reset_sure" = "確定要終止其他連線?";
+"lng_settings_reset_button" = "終止";
+"lng_settings_reset_done" = "其他連線已終止";
+"lng_settings_logout" = "登出";
+"lng_sure_logout" = "確定要登出?";
+
+"lng_settings_need_restart" = "套用新設定必須重啟\n. 馬上重啟?";
+"lng_settings_restart_now" = "重啟";
+"lng_settings_restart_later" = "稍後";
+
+"lng_profile_chat_unaccessible" = "無法存取群組";
+"lng_topbar_info" = "資訊";
+"lng_profile_settings_section" = "設定";
+"lng_profile_participants_section" = "參與者";
+"lng_profile_info" = "聯絡人資訊";
+"lng_profile_group_info" = "群組資訊";
+"lng_profile_add_contact" = 新增聯絡人";
+"lng_profile_edit_contact" = "編輯";
+"lng_profile_enable_notifications" = "通知";
+"lng_profile_clear_history" = "清除歷史";
+"lng_profile_send_message" = "傳送訊息";
+"lng_profile_share_contact" = "分享聯絡人";
+"lng_profile_delete_contact" = "刪除";
+"lng_profile_set_group_photo" = "設定照片";
+"lng_profile_add_participant" = "新增成員";
+"lng_profile_delete_and_exit" = "離開";
+"lng_profile_kick" = "踢出";
+"lng_profile_sure_kick" = "從群組踢出 {user}?";
+"lng_profile_loading" = "載入中..";
+"lng_profile_shared_media" = "分享媒體";
+"lng_profile_no_media" = "本對話中沒有媒體.";
+"lng_profile_photos" = "{count:_not_used_|# photo|# photos} »";
+"lng_profile_photos_header" = "照片總覽";
+"lng_profile_videos" = "{count:_not_used_|# video file|# video files} »";
+"lng_profile_videos_header" = "影片總覽";
+"lng_profile_documents" = "{count:_not_used_|# document|# documents} »";
+"lng_profile_documents_header" = "檔案總覽";
+"lng_profile_audios" = "{count:_not_used_|# voice message|# voice messages} »";
+"lng_profile_audios_header" = "語音訊息總覽";
+"lng_profile_show_all_types" = "顯示所有類型";
+"lng_profile_copy_phone" = "複製手機號碼";
+
+"lng_participant_filter" = "搜尋";
+"lng_participant_invite" = "邀請";
+"lng_create_new_group" = "新群組";
+"lng_create_group_next" = "下一步";
+"lng_create_group_title" = "新群組";
+
+"lng_sure_delete_contact" = "確定要刪除從聯絡人列表中刪除 {contact}?";
+"lng_sure_delete_history" = "確定要刪除 {contact} 的聊天紀錄?\n\n此動作無法復原.";
+
+"lng_sure_delete_and_exit" = "確定要刪除聊天紀錄並離開 «{group}»?\n\n此動作無法復原.";
+
+"lng_sure_enable_debug" = "是否啟用除錯模式?\n\n所有的網路事件將會被紀錄.";
+
+"lng_message_empty" = "(empty)";
+
+"lng_action_add_user" = "{from} 加入 {user}";
+"lng_action_kick_user" = "{from} 被踢出 {user}";
+"lng_action_user_left" = "{from} 離開群組";
+"lng_action_user_joined" = "{from} 加入群組";
+"lng_action_user_registered" = "{from} 剛加入 Telegram";
+"lng_action_removed_photo" = "{from} 移除群組照片";
+"lng_action_changed_photo" = "{from} 更改群組照片";
+"lng_action_changed_title" = "{from} 更改群組名稱為 «{title}»";
+"lng_action_created_chat" = "{from} 建立群組 «{title}»";
+
+"lng_forwarded_from" = "轉發於";
+
+"lng_attach_failed" = "失敗";
+"lng_attach_file" = "檔案";
+"lng_attach_photo" = "照片";
+
+"lng_media_type" = "媒體類型";
+"lng_media_type_photos" = "照片";
+"lng_media_type_videos" = "影片";
+"lng_media_type_documents" = "檔案";
+"lng_media_type_audios" = "語音訊息";
+
+"lng_media_open_with" = "開啟";
+"lng_media_download" = "下載";
+"lng_media_cancel" = "取消";
+"lng_media_video" = "影片檔案";
+"lng_media_audio" = "語音訊息";
+
+"lng_in_dlg_photo" = "照片";
+"lng_in_dlg_video" = "影片";
+"lng_in_dlg_contact" = "聯絡人";
+"lng_in_dlg_audio" = "語音";
+"lng_in_dlg_document" = "檔案";
+"lng_in_dlg_sticker" = "貼圖";
+"lng_in_dlg_sticker_emoji" = "{emoji} (sticker)";
+
+"lng_send_button" = "傳送";
+"lng_message_ph" = "輸入訊息..";
+"lng_empty_history" = "無歷史紀錄";
+"lng_willbe_history" = "請選擇聊天開始傳訊息";
+"lng_message_with_from" = "[c]{from}:[/c] {message}";
+"lng_from_you" = "你";
+
+"lng_typing" = "輸入中";
+"lng_user_typing" = "{user} 正在輸入";
+"lng_users_typing" = "{user} 和 {second_user} 正在輸入";
+"lng_many_typing" = "{count:_not_used_|# is|# are} 正在輸入";
+"lng_unread_bar" = "{count:_not_used_|# unread message|# unread messages}";
+
+"lng_maps_point" = "位置";
+"lng_save_photo" = "儲存圖片";
+"lng_save_video" = "儲存影片";
+"lng_save_audio" = "儲存語音";
+"lng_save_document" = "儲存檔案";
+"lng_save_downloaded" = "{ready} / {total} {mb}";
+"lng_duration_and_size" = "{duration}, {size}";
+"lng_choose_images" = "選擇圖片";
+
+"lng_context_open_link" = "開啟連結";
+"lng_context_copy_link" = "複製連結";
+"lng_context_open_email" = "寫信到這個email位址";
+"lng_context_copy_email" = "複製 email 位址";
+"lng_context_open_hashtag" = "以hashtag搜尋";
+"lng_context_copy_hashtag" = "複製hashtag";
+"lng_context_open_image" = "開啟圖片";
+"lng_context_save_image" = "另存圖片..";
+"lng_context_forward_image" = "轉發圖片";
+"lng_context_delete_image" = "刪除圖片";
+"lng_context_copy_image" = "儲存圖片";
+"lng_context_close_image" = "關閉圖片";
+"lng_context_cancel_download" = "取消下載";
+"lng_context_show_in_folder" = "在目錄檢視";
+"lng_context_show_in_finder" = "在Finder檢視";
+"lng_context_open_video" = "開啟應片";
+"lng_context_save_video" = "另存影片..";
+"lng_context_open_audio" = "開啟語音訊息";
+"lng_context_save_audio" = "另存語音訊息..";
+"lng_context_open_document" = "開啟檔案";
+"lng_context_save_document" = "另存檔案..";
+"lng_context_forward_file" = "轉發檔案";
+"lng_context_delete_file" = "刪除檔案";
+"lng_context_close_file" = "關閉檔案";
+"lng_context_copy_text" = "複製訊息文字";
+"lng_context_to_msg" = "跳轉訊息";
+"lng_context_forward_msg" = "轉發訊息";
+"lng_context_delete_msg" = "刪除訊息";
+"lng_context_select_msg" = "選擇訊息";
+"lng_context_cancel_upload" = "取消上傳";
+"lng_context_copy_selected" = "複製選擇文字";
+"lng_context_forward_selected" = "轉發已選擇";
+"lng_context_delete_selected" = "刪除已選擇";
+"lng_context_clear_selection" = "清除選擇";
+"lng_really_send_image" = "是否傳送圖片?";
+"lng_really_send_file" = "是否傳送檔案?";
+"lng_really_share_contact" = "是否分享聯絡人?";
+"lng_send_image_compressed" = "傳送壓縮圖片";
+
+"lng_forward_choose" = "選擇收件人..";
+"lng_forward_confirm" = "轉發給 {recipient}?";
+"lng_forward_share_contact" = "分享聯絡人給 {recipient}?";
+"lng_forward_send_file_confirm" = "傳送 «{name}» 給 {recipient}?";
+"lng_forward_send_files_confirm" = "傳送選擇的檔案給 {recipient}?";
+"lng_forward" = "轉發";
+"lng_forward_send" = "傳送";
+
+"lng_contact_phone" = "手機號碼";
+"lng_enter_contact_data" = "新聯絡人";
+"lng_edit_group_title" = "編輯群組名稱";
+"lng_edit_contact_title" = "編輯聯絡人名稱";
+"lng_edit_self_title" = "編輯姓名";
+"lng_confirm_contact_data" = "新聯絡人";
+"lng_add_contact" = "建立";
+"lng_add_contact_button" = "新增聯絡人";
+"lng_contacts_header" = "聯絡人";
+"lng_contact_not_joined" = "糟糕 {name} 還沒加入 Telegram , 但你可以給他發個邀請.\n\n當你的朋友加入Telegram，我們將會通知你.";
+"lng_try_other_contact" = "嘗試其他的";
+"lng_contacts_done" = "取消";
+
+"lng_drag_images_here" = "拖曳圖片到此";
+"lng_drag_photos_here" = "拖曳照片到此";
+"lng_drag_files_here" = "拖曳檔案到此";
+
+"lng_drag_to_send_quick" = "快速傳送";
+"lng_drag_to_send_no_compression" = "未壓縮傳送";
+"lng_drag_to_send_documents" = "以檔案傳送";
+
+"lng_selected_clear" = "取消";
+"lng_selected_delete" = "刪除";
+"lng_selected_forward" = "轉發";
+"lng_selected_count" = "{count:_not_used_|# message|# messages}";
+"lng_selected_cancel_sure_this" = "是否取消上傳?";
+"lng_selected_delete_sure_this" = "是否刪除訊息?";
+"lng_selected_delete_sure" = "是否刪除 {count:_not_used_|# message|# messages}?";
+"lng_selected_delete_confirm" = "刪除";
+
+"lng_about_version" = "版本 {version}";
+"lng_about_text" = "Official free messaging app based on [a href=\"https://core.telegram.org/mtproto\"]MTProto[/a] and\n[a href=\"https://core.telegram.org/api\"]Telegram API[/a] for speed and security\n\nThis software is licensed under [a href=\"https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE\"]GNU GPL[/a] version 3,\nsource code is available on [a href=\"https://github.com/telegramdesktop/tdesktop\"]GitHub[/a].";
+"lng_about_done" = "完成";
+
+"lng_search_found_results" = "{count:No messages found|Found # message|Found # messages}";
+"lng_search_global_results" = "全域搜尋結果";
+
+"lng_mediaview_save" = "下載";
+"lng_mediaview_forward" = "轉發";
+"lng_mediaview_delete" = "刪除";
+"lng_mediaview_single_photo" = "單一照片";
+"lng_mediaview_group_photo" = "照片群組";
+"lng_mediaview_profile_photo" = "個人照片";
+"lng_mediaview_n_of_count" = "Photo {n} of {count}";
+"lng_mediaview_doc_image" = "檔案";
+"lng_mediaview_today" = "{time} 於今天 ";
+"lng_mediaview_yesterday" = "{time} 於昨天";
+"lng_mediaview_date_time" = "{time} 於{date}";
+
+"lng_mediaview_saved" = "圖片已儲存於 [c]Downloads[/c] 目錄";
+
+"lng_new_authorization" = "{name},\n我們偵測到您的帳號在新裝置上登入於 {time} {day}, {date}\n\n裝置: {device}\n位置: {location}\n\n如果這不是您, 您可以到設定頁面 — 終止其他連線.\n\n謝謝,\nTelegram團隊";
+
+"lng_new_version7007" = "Telegram Desktop was updated to version {version}\n\n — Tray icon added in Ubuntu\n\nFull version history is available here:\n{link}";
+"lng_new_version7006_appstore" = "Telegram Desktop was updated to version {version}\n\n — Stickers support\n — Local caching for voice messages\n — Added new languages\n\nFull version history is available here:\n{link}";
+
+// Mac specific
+
+"lng_mac_choose_app" = "選擇應用程式";
+"lng_mac_choose_text" = "選擇應用程式來開啟檔案 \"{file}\".";
+"lng_mac_enable_filter" = "啟用:";
+"lng_mac_recommended_apps" = "建議的應用程式";
+"lng_mac_all_apps" = "所有應用程式";
+"lng_mac_always_open_with" = "以此預設開啟";
+"lng_mac_this_app_can_open" = "這個應用程式可以開啟 \"{file}\".";
+"lng_mac_not_known_app" = "It's not known if this application can open \"{file}\".";
+
+"lng_mac_menu_services" = "服務";
+"lng_mac_menu_hide_telegram" = "隱藏 {telegram}";
+"lng_mac_menu_hide_others" = "隱藏其他";
+"lng_mac_menu_show_all" = "顯示全部";
+"lng_mac_menu_preferences" = "偏好設置...";
+"lng_mac_menu_quit_telegram" = "離開 {telegram}";
+"lng_mac_menu_about_telegram" = "關於 {telegram}";
+"lng_mac_menu_file" = "檔案";
+"lng_mac_menu_logout" = "登出";
+"lng_mac_menu_edit" = "編輯";
+"lng_mac_menu_undo" = "復原";
+"lng_mac_menu_redo" = "重作";
+"lng_mac_menu_cut" = "剪下";
+"lng_mac_menu_copy" = "複製";
+"lng_mac_menu_paste" = "貼上";
+"lng_mac_menu_delete" = "刪除";
+"lng_mac_menu_select_all" = "選擇全部";
+"lng_mac_menu_window" = "視窗";
+"lng_mac_menu_contacts" = "聯絡人";
+"lng_mac_menu_add_contact" = "新增聯絡人";
+"lng_mac_menu_new_group" = "新群組";
+"lng_mac_menu_show" = "顯示Telegram";
+
+// Keys finished
